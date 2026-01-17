@@ -1,10 +1,9 @@
-import { useRef } from 'react';
 
 
-function TitleText (String) {
+
+function TitleText ({title}) {
     return (
-        <h1 className='text-4xl md:text-6xl font-medium tracking-tight mb-10'>component</h1>
-
+        <h2 className="text-xl mb-2">{title}</h2>
     )
 }
 

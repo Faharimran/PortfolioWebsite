@@ -11,6 +11,9 @@ import Contacts from './components/Contacts'
 
 
 import DragonCursor from './components/DragonCursor'
+import Features from './components/Features'
+
+const data = new Array(5).fill(null);
 const App = () => {
   return (
     <>
@@ -23,6 +26,7 @@ const App = () => {
       <About/>
       <Expriences/>
       <Testimonials/>
+      {/* <Features items={data}/> */}
       <Contacts/>
       {/* <TestimonialsTest/> */}
       

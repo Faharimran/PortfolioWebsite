@@ -1,5 +1,5 @@
 import projects1 from "/src/assets/projects1.jpeg";
-import projects2 from "/src/assets/projects2.webp";
+import projects2 from "/src/assets/projects2.jpg";
 import projects3 from "/src/assets/projects3.webp";
 import projects4 from "/src/assets/projects4.webp";
 import projects5 from "/src/assets/projects5.webp";
@@ -31,23 +31,27 @@ export const HERO_CONTENT = {
 };
 
 export const PROJECTS = [
+  
+  {
+    name: "Resol Services",
+    description: "Web developer and helped in the Startup with their legal working ",
+    image: projects2,
+    link: "https://resolservices.com/",
+    view: "View Website"
+  },
   {
     name: "Dyslexic Ally",
     description: "App to help dyslexic individuals to rise and shine",
     image: projects1,
     link: "https://github.com/your-github/streamerzz",
-  },
-  {
-    name: "NutriTrack",
-    description: "Track your meals and calories with smart AI suggestions",
-    image: projects2,
-    link: "https://github.com/your-github/nutritrack",
+    view: "View on GitHub"
   },
   {
     name: "HairRevive",
     description: "A platform for hair regrowth solutions powered by science",
     image: projects3,
     link: "https://github.com/your-github/hairrevive",
+    view: "View on GitHub"
   },
   {
     name: "DevDeck",
@@ -55,18 +59,21 @@ export const PROJECTS = [
       "Interactive dashboard for developers to track coding activity",
     image: projects4,
     link: "https://github.com/your-github/devdeck",
+    view: "View on GitHub"
   },
   {
     name: "FitConnect",
     description: "Fitness social network to connect athletes and trainers",
     image: projects5,
     link: "https://github.com/your-github/fitconnect",
+    view: "View on GitHub"
   },
   {
     name: "WellNest",
     description: "A wellness app for mental and physical health improvement",
     image: projects6,
     link: "https://github.com/your-github/wellnest",
+    view: "View on GitHub"
   },
 
 ];
@@ -79,6 +86,16 @@ export const ABOUT_CONTENT = {
 };
 
 export const EXPERIENCES = [
+  {
+    yearRange: "Jan 2025 — Aug 2025", 
+    title: "Virag Vigyan",
+    location: "Remote",
+    description: [
+      "Worked as a react frontend developer.",
+      "Worked on multiple projects like Warehouse Management System, Invoice Management System, and many more.",
+      "Collaborated with cross-functional teams to deliver projects that meet both business goals. ",
+    ],
+  },
   {
     yearRange: "July 2024 — Dec 2024", 
     title: "Resol Services",
@@ -127,42 +144,42 @@ export const TESTIMONIALS = [
     name: "AI or God",
     title: "Frontend Engineer, Google",
     feedback:
-      "Jason is one of the most talented developers I've had the pleasure of working with. His skills in frontend development are unparalleled, and his ability to solve complex problems with ease is truly impressive. His leadership and communication make him a standout developer in any team.",
+      "Fahar is one of the most talented developers I've had the pleasure of working with. His skills in frontend development are unparalleled, and his ability to solve complex problems with ease is truly impressive. His leadership and communication make him a standout developer in any team.",
     image: person1,
   },
   {
     name: "Michael Anderson",
     title: "Product Manager, Facebook",
     feedback:
-      "Jason was instrumental in driving our product forward. His keen eye for detail and ability to work cross-functionally made him an invaluable asset. He consistently delivers top-quality work and elevates the projects he's involved in. He’s a natural leader, and his expertise in frontend technologies is outstanding.",
+      "Fahar was instrumental in driving our product forward. His keen eye for detail and ability to work cross-functionally made him an invaluable asset. He consistently delivers top-quality work and elevates the projects he's involved in. He’s a natural leader, and his expertise in frontend technologies is outstanding.",
     image: person2,
   },
   {
     name: "Emily Davis",
     title: "Lead Designer, Amazon",
     feedback:
-      "Working with Jason has been a phenomenal experience. His deep understanding of both design and development allowed us to push the boundaries of what we could achieve. His creative problem-solving abilities and commitment to quality are second to none.",
+      "Working with Fahar has been a phenomenal experience. His deep understanding of both design and development allowed us to push the boundaries of what we could achieve. His creative problem-solving abilities and commitment to quality are second to none.",
     image: person3,
   },
   {
     name: "David Lee",
     title: "Senior Developer, Microsoft",
     feedback:
-      "Jason's contribution to our team was nothing short of amazing. His technical knowledge, combined with his passion for creating user-friendly and scalable applications, made a significant impact on the success of our product. He’s always willing to go the extra mile to ensure the best outcome.",
+      "Fahar's contribution to our team was nothing short of amazing. His technical knowledge, combined with his passion for creating user-friendly and scalable applications, made a significant impact on the success of our product. He’s always willing to go the extra mile to ensure the best outcome.",
     image: person4,
   },
   {
     name: "Laura Martinez",
     title: "CTO, Shopify",
     feedback:
-      "Jason brought a level of expertise and professionalism to our team that was greatly appreciated. His focus on scalability and clean code ensured that our platform could handle large traffic loads without compromising performance. His work ethic and collaboration skills are impeccable.",
+      "Fahar brought a level of expertise and professionalism to our team that was greatly appreciated. His focus on scalability and clean code ensured that our platform could handle large traffic loads without compromising performance. His work ethic and collaboration skills are impeccable.",
     image: person5,
   },
   {
     name: "Chris Brown",
     title: "Co-founder, Stripe",
     feedback:
-      "Jason combines technical proficiency with excellent leadership skills. He was a key part of our success, helping us build a robust and scalable product. His attention to detail and ability to manage teams made him an invaluable part of the company.",
+      "Fahar combines technical proficiency with excellent leadership skills. He was a key part of our success, helping us build a robust and scalable product. His attention to detail and ability to manage teams made him an invaluable part of the company.",
     image: person6,
   },
   

@@ -32,7 +32,7 @@ const Projects = () => {
                 <h2 className="text-2xl font-medium mb-4">{project.name}</h2>
                 <div className="flex flex-col justify-between"> 
                     <p className="mb-4 flex-grow text-2xl">{project.description}</p>
-                <a href={project.link} target="_blank" ref={myRef} className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 text-sm hover:bg-gray-100 text-center">View on GitHub</a></div></div>
+                <a href={project.link} target="_blank" ref={myRef} className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 text-sm hover:bg-gray-100 text-center">{project.view}</a></div></div>
             </motion.div>
         ))}
     </div>

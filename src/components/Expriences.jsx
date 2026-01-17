@@ -1,5 +1,7 @@
 import {motion} from "framer-motion"
 import { EXPERIENCES } from "../constants"
+import TitleText from "./titleText/TitleText"
+import SubtitleText from "./titleText/SubtitleText"
 const Expriences = () => {
     const containerVariants = {
         hidden : { opacity: 0, y: 50},
@@ -37,8 +39,8 @@ const Expriences = () => {
                     <div className="text-sm md:w-1/4 mb-2 md:mb:-0 p-4">{exprience.yearRange}</div>
                     <div className="md:w-3/4 mb-10">
                     <div className="max-w-3xl backdrop-blur-3xl p-4 bg-stone-600/10 rounded-lg">
-                    <h2 className="text-xl mb-2">{exprience.title}</h2>
-                    <p className="mb-4 text-sm italic">{exprience.location}</p>
+                    <TitleText title={exprience.title} ></TitleText>
+                    <SubtitleText subtitle={exprience.location} ></SubtitleText>
                     <ul className="list-disc list-inside space-y-2">{exprience.description.map((desc, index) => (
                         <li key={index}>{desc}</li>
                     ))}</ul></div>
