@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import GlassCard from "./card/GlassCard";
+import TitleText from "./titleText/TitleText"
 
 const API_URL = "https://movies-recommendation-system-1-6ltt.onrender.com";
 const OMDB_KEY = "b5dddb25";
@@ -119,6 +120,10 @@ const Features = () => {
 
       <GlassCard className="w-full p-6">
 
+         <div className=" font-bold w-full flex  mb-5">
+          <TitleText title='Movies Recommendation System' ></TitleText>
+          </div>
+
         {/* Search Bar */}
         <form onSubmit={handleSubmit} className="w-full mx-auto">
           <div className="relative">
@@ -186,7 +191,7 @@ const Features = () => {
 
         {/* Label */}
         <p className="text-white/50 text-sm mt-6 mb-3 px-1">
-          {loading ? "Finding recommendations..." : movies.length > 0 && !error ? "Recommended for you" : ""}
+          {loading ? "Finding recommendations..." : movies.length > 0 && !error ? '': ""}
         </p>
 
         {/* Error */}
