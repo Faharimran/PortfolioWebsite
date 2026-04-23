@@ -17,6 +17,7 @@ export const LINKS = [
   { href: "#about", label: "About" },
   { href: "#experience", label: "Experience" },
   { href: "#testimonials", label: "Opinions" },
+  { href: "#features", label: "Features" },
   { href: "#contact", label: "Contact" },
 ];
 
