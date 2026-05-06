@@ -61,13 +61,15 @@ async def summarize(req: RepoRequest):
             messages=[{
                 "role": "user",
                 "content": f"""
-                    Analyze this GitHub repository and explain it in simple, clear language.
+                    Analyze this GitHub repository and explain it in simple, clear language, keep it detailed and go in deepth of the code and tell if there are some errors with the code or any feature could be added to make the product better.
                     Structure your response like this:
 
                     🧠 What it does:
                     🎯 The problem it solves:
                     👤 Who it's for:
                     🛠 Tech stack:
+                    ⚠️ errors:
+                    🧞‍♂️ Suggestions:
 
                     README:
                     {readme[:3000]}
